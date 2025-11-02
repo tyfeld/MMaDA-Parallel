@@ -1,7 +1,4 @@
 # MMaDA-Parallel
-Official Implementation of "Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation"
-
-
 <h3>Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</h3></div>
 
 <p align="center">
