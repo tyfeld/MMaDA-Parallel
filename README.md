@@ -63,6 +63,7 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 
 ## 📰 Latest Updates 
+* **[2025-11-11]** We release our codes and models for [MMaDA-Parallel]().
 * **[2025-11-10]** We release our [research paper]() for Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.
 
 ## ⚙️ Quick Start
