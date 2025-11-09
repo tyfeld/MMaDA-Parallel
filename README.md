@@ -13,7 +13,7 @@
         src="https://img.shields.io/badge/Project_Website-Page-brightgreen?logo=safari" 
         alt="MMaDA Parallel Page"
     />
-  </a>
+  </a></p><p>
   <a href="https://huggingface.co/tyfeld/MMaDA-Parallel-Star">
     <img 
         src="https://img.shields.io/badge/MMaDA--Parallel*-Hugging%20Face%20Model-orange?logo=huggingface&logoColor=yellow" 
@@ -29,7 +29,7 @@
   </a>
     <a href="https://huggingface.co/tyfeld/ParaBench">
     <img 
-        src="https://img.shields.io/badge/ParaBench--BenchMark-orange?logo=huggingface&logoColor=yellow" 
+        src="https://img.shields.io/badge/ParaBench-BenchMark-orange?logo=huggingface&logoColor=yellow" 
         alt="MMaDA on Hugging Face"
     />
   </a>
