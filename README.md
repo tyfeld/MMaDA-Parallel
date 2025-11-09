@@ -1,6 +1,6 @@
-# MMaDA-Parallel
-<h3>Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</h3></div>
 
+<div align="center">
+<h1>MMaDA-Parallel: Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</h1>
 <p align="center">
   <a href="https://arxiv.org/abs/2505.15809">
     <img
@@ -34,6 +34,8 @@
     />
   </a>
 </p>
+</div>
+
 
 
 ## 🌌 Introduction
