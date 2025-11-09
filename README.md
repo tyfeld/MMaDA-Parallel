@@ -48,13 +48,13 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 </div>
 
 ## Results
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
     <img src="assets/lumina_01.png" alt="Main Results" style="width: 90%" />
     <p align="center">Qualitative comparison between MMaDA-Parallel* and Bagel (w/ think), trained from Lumina-DiMOO. </p>
 </div>
 
 
-<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
     <img src="assets/mainresults.png" alt="Main Results" style="width: 90%" />
     <p align="center">Quantitative Results on ParaBench.</p>
 </div>
