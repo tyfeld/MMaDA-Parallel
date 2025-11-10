@@ -73,12 +73,14 @@ First, start with a torch environment with torch 2.3.1 or higher version, then i
 pip install -r requirements.txt
 ```
 
-### 2. Experiencing Parallel Gen with MMaDA-Parallel* (Lumina-DiMOO-based)
+We provide two varients of MMaDA-Parallel: MMaDA-Parallel-A and MMaDA-Parallel-M. These two varients are with different tokenizer, Amused-VQ and Magvitv2 respectively. MMaDA-Parallel-A is trained with Amused-VQ, from Lumina-DiMOO, and MMaDA-Parallel-M is trained with Magvitv2, from MMaDA-8B.
+
+### 2. Experiencing Parallel Gen with MMaDA-Parallel-A
 ```bash
-cd Lumina-DiMOO-based
+cd MMaDA-Parallel-A
 python inference.py \
-    --checkpoint tyfeld/MMaDA-Parallel-Star \
-    --vae_ckpt tyfeld/MMaDA-Parallel-Star \
+    --checkpoint tyfeld/MMaDA-Parallel-A \
+    --vae_ckpt tyfeld/MMaDA-Parallel-A \
     --prompt "Replace the laptops with futuristic transparent tablets displaying holographic screens, and change the drink to a cup of glowing blue energy drink." \
     --image_path examples/image.png \
     --height 512 \
@@ -95,9 +97,9 @@ python inference.py \
     --output_dir output/results_interleave
 ```
 
-### 3. Parallel Gen with MMaDA-Parallel (MMaDA-8B-based)
+### 3. Parallel Gen with MMaDA-Parallel-M
 ```bash
-cd MMaDA-8B-based
+cd MMaDA-Parallel-M
 python inference.py interleave_root=./interleave_validation  
 ```
 

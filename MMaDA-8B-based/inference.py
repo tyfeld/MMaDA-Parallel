@@ -49,7 +49,7 @@ if __name__ == '__main__':
         config=wandb_config,
     )
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    tokenizer = AutoTokenizer.from_pretrained("tyfeld/MMaDA-Parallel-Star", padding_side="left")
+    tokenizer = AutoTokenizer.from_pretrained("tyfeld/MMaDA-Parallel-M", padding_side="left")
 
     uni_prompting = UniversalPrompting(tokenizer, max_text_len= 256, special_tokens=("<|soi|>", "<|eoi|>", "<|sov|>", "<|eov|>", "<|t2i|>", "<|mmu|>", "<|t2v|>", "<|v2v|>", "<|lvg|>"),ignore_id=-100, cond_dropout_prob=0.1, use_reserved_token=True)
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     vq_model = vq_model.from_pretrained("showlab/magvitv2").to(device)
     vq_model.requires_grad_(False)
     vq_model.eval()
-    model = MMadaModelLM.from_pretrained("tyfeld/MMaDA-Parallel-Star", trust_remote_code=True, torch_dtype=torch.bfloat16)
+    model = MMadaModelLM.from_pretrained("tyfeld/MMaDA-Parallel-M", trust_remote_code=True, torch_dtype=torch.bfloat16)
 
     model.to(device)
 
