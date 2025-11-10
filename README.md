@@ -14,15 +14,15 @@
         alt="MMaDA Parallel Page"
     />
   </a></p><p>
-  <a href="https://huggingface.co/tyfeld/MMaDA-Parallel-Star">
+  <a href="https://huggingface.co/tyfeld/MMaDA-Parallel-A">
     <img 
-        src="https://img.shields.io/badge/MMaDA--Parallel*-Hugging%20Face%20Model-orange?logo=huggingface&logoColor=yellow" 
+        src="https://img.shields.io/badge/MMaDA--Parallel--A-Hugging%20Face%20Model-orange?logo=huggingface&logoColor=yellow" 
         alt="MMaDA on Hugging Face"
     />
   </a>
-    <a href="https://huggingface.co/tyfeld/MMaDA-Parallel">
+    <a href="https://huggingface.co/tyfeld/MMaDA-Parallel-M">
     <img 
-        src="https://img.shields.io/badge/MMaDA--Parallel-Hugging%20Face%20Model-orange?logo=huggingface&logoColor=yellow" 
+        src="https://img.shields.io/badge/MMaDA--Parallel--M-Hugging%20Face%20Model-orange?logo=huggingface&logoColor=yellow" 
         alt="MMaDA on Hugging Face"
     />
   </a>
