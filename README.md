@@ -103,10 +103,15 @@ python inference.py \
 cd MMaDA-Parallel-M
 python inference.py interleave_root=./interleave_validation  
 ```
-
+<!-- 
 ## 🔧 Training
-Training code will be released.
+Training code will be released. -->
 
+## TODO
+- [x] Release the MMaDA-Parallel code and paper.
+- [ ] Evaluation on ParaBench code.
+- [ ] Refine MMaDA-Parallel-M and update the corresponding checkpoint.
+- [ ] Training code for SFT and ParaRL.
 <!-- ## 📊 Evaluation
 Please refer to [evaluation/eval.md](evaluation/eval.md) for more details. -->
 
