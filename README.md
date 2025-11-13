@@ -27,7 +27,7 @@
     />
   </a>
   </a>
-    <a href="https://huggingface.co/tyfeld/ParaBench">
+    <a href="https://huggingface.co/datasets/tyfeld/ParaBench">
     <img 
         src="https://img.shields.io/badge/ParaBench-BenchMark-orange?logo=huggingface&logoColor=yellow" 
         alt="MMaDA on Hugging Face"
