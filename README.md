@@ -2,7 +2,7 @@
 <div align="center">
 <h1>MMaDA-Parallel: Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</h1>
 <p align="center">
-  <a href="https://arxiv.org/abs/2505.15809">
+  <a href="https://arxiv.org/abs/2511.09611">
     <img
       src="https://img.shields.io/badge/MMaDA--Parallel-Paper-red?logo=arxiv&logoColor=red"
       alt="MMaDA-Parallel Paper on arXiv"
@@ -50,7 +50,7 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 ## Results
 <div align="center" style="display: flex; justify-content: center; flex-wrap: wrap;">
     <img src="assets/lumina_01.png" alt="Main Results" style="width: 90%" />
-    <p align="center">Qualitative comparison between MMaDA-Parallel* and Bagel (w/ think), trained from Lumina-DiMOO. </p>
+    <p align="center">Qualitative comparison. </p>
 </div>
 
 
@@ -63,8 +63,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 
 ## 📰 Latest Updates 
-* **[2025-11-11]** We release our codes and models for [MMaDA-Parallel]().
-* **[2025-11-10]** We release our [research paper]() for Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.
+* **[2025-11-11]** We release our codes and models for [MMaDA-Parallel](https://arxiv.org/abs/2511.09611).
+* **[2025-11-10]** We release our [research paper](https://arxiv.org/abs/2511.09611) for Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.
 
 ## ⚙️ Quick Start
 
@@ -118,10 +118,11 @@ Please refer to [evaluation/eval.md](evaluation/eval.md) for more details. -->
 ## 📖 Citation
 ```
 @article{tian2025mmadaparallel,
-      title={MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation},
-      author={Tian, Ye and Yang, Ling and Yang, Jiongfan and Wang, Anran and Tian, Yu and Zheng, Jiani and Wang, Haochen and Teng, Zhiyang and Wang, Zhuochen and Wang, Yinjie and Tong, Yunhai and Wang, Mengdi and Li, Xiangtai},
-      journal={Preprint},
-      year={2025}}
+  title={MMaDA-Parallel: Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation},
+  author={Tian, Ye and Yang, Ling and Yang, Jiongfan and Wang, Anran and Tian, Yu and Zheng, Jiani and Wang, Haochen and Teng, Zhiyang and Wang, Zhuochen and Wang, Yinjie and Tong, Yunhai and Wang, Mengdi and Li, Xiangtai},
+  journal={arXiv preprint arXiv:2511.09611},
+  year={2025}
+}
 ```
 
 ## 🤝 Acknowledgments
