@@ -70,7 +70,7 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 
 ## 📰 Latest Updates 
-* **[2025-11-11]** We release our codes and models for [MMaDA-Parallel](https://arxiv.org/abs/2511.09611).
+* **[2025-11-11]** We release our codes and models for [MMaDA-Parallel](https://arxiv.org/abs/2511.09611), with two released 8B models [MMaDA-Parallel-A](https://huggingface.co/tyfeld/MMaDA-Parallel-A) and [MMaDA-Parallel-M](https://huggingface.co/tyfeld/MMaDA-Parallel-M).
 * **[2025-11-10]** We release our [research paper](https://arxiv.org/abs/2511.09611) for Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.
 
 ## ⚙️ Quick Start
@@ -81,7 +81,7 @@ First, start with a torch environment with torch 2.3.1 or higher version, then i
 pip install -r requirements.txt
 ```
 
-We provide two variants of MMaDA-Parallel: MMaDA-Parallel-A and MMaDA-Parallel-M. These two variants are with different tokenizers, Amused-VQ and Magvitv,2 respectively. MMaDA-Parallel-A is trained with Amused-VQ, from Lumina-DiMOO, and MMaDA-Parallel-M is trained with Magvitv2, from MMaDA-8B.
+We provide two varients of MMaDA-Parallel with different tokenizers. MMaDA-Parallel-A is trained with tokenizer Amused-VQ, and MMaDA-Parallel-M is trained with tokenizer Magvitv2.
 
 ### 2. Experiencing Parallel Gen with MMaDA-Parallel-A
 You can directly use the local gradio app to experience the parallel generation with MMaDA-Parallel-A:
