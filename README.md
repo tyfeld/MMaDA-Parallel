@@ -41,7 +41,7 @@
 ## 🌌 Introduction
 
 <div align="center">
-    <img src="assets/parallel.gif" alt="Parallel Generation Demo" style="width: 100%" />
+    <img src="assets/demo.gif" alt="Parallel Generation Demo" style="width: 100%" />
     <p align="center">Demo: Parallel text-image generation in action.</p>
 </div>
 
