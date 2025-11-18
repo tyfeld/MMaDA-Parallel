@@ -12,10 +12,10 @@ import torch.nn.functional as F
 
 def decode_vq_to_image(
     vq_codes: torch.LongTensor, 
-    save_path: str, 
-    vae_ckpt: str, 
-    image_height: int, 
-    image_width: int,
+    save_path: str = None, 
+    vae_ckpt: str = None, 
+    image_height: int = 512, 
+    image_width: int = 512,
     vqvae: VQModel = None
 ) -> Image.Image:
     """
@@ -23,8 +23,8 @@ def decode_vq_to_image(
     
     Args:
         vq_codes: VQ codes in range [0, codebook_size), shape [batch_size, seq_len]
-        save_path: Save path
-        vae_ckpt: VAE checkpoint path
+        save_path: Save path (optional, if None will not save to file)
+        vae_ckpt: VAE checkpoint path (optional if vqvae is provided)
         image_height: Image height
         image_width: Image width
         vqvae: VQ-VAE model, if None will load from vae_ckpt
@@ -68,8 +68,9 @@ def decode_vq_to_image(
     # Post-process
     img = img_proc.postprocess(recon.detach(), output_type="pil")[0]
     
-    # Save image
-    img.save(save_path)
+    # Save image (only if save_path is provided)
+    if save_path is not None:
+        img.save(save_path)
     
     return img
 
