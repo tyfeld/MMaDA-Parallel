@@ -39,6 +39,13 @@
 
 
 ## 🌌 Introduction
+
+<div align="center">
+    <img src="assets/parallel.gif" alt="Parallel Generation Demo" style="width: 70%" />
+    <p align="center">Demo: Parallel text-image generation in action.</p>
+</div>
+
+
 While thinking-aware generation aims to improve performance on complex tasks, we identify a critical failure mode where existing sequential, autoregressive approaches can paradoxically degrade performance due to error propagation. 
 To systematically analyze this issue, we propose **ParaBench**, a new benchmark designed to evaluate both text and image output modalities. Our analysis using ParaBench reveals that this performance degradation is strongly correlated with poor alignment between the generated reasoning and the final image.
 To resolve this, we propose a parallel multimodal diffusion framework that enables continuous, bidirectional interaction between text and images throughout the entire denoising trajectory. This model, **MMaDA-Parallel**, is trained with supervised finetuning and then further optimized by Parallel Reinforcement Learning (**ParaRL**), a novel strategy that applies semantic rewards along the trajectory to enforce cross-modal consistency. Experiments validate that our approach significantly improves cross-modal alignment and semantic consistency, achieving a 6.9\% improvement in **Output Alignment** on ParaBench compared to the state-of-the-art model, Bagel, establishing a more robust paradigm for thinking-aware image synthesis.
