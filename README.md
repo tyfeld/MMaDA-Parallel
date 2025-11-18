@@ -84,6 +84,13 @@ pip install -r requirements.txt
 We provide two variants of MMaDA-Parallel: MMaDA-Parallel-A and MMaDA-Parallel-M. These two variants are with different tokenizers, Amused-VQ and Magvitv,2 respectively. MMaDA-Parallel-A is trained with Amused-VQ, from Lumina-DiMOO, and MMaDA-Parallel-M is trained with Magvitv2, from MMaDA-8B.
 
 ### 2. Experiencing Parallel Gen with MMaDA-Parallel-A
+You can directly use the local gradio app to experience the parallel generation with MMaDA-Parallel-A:
+```bash
+python app.py
+```
+
+Or you can use the inference script to generate the parallel generation results:
+
 ```bash
 cd MMaDA-Parallel-A
 python inference.py \
