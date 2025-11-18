@@ -74,7 +74,7 @@ First, start with a torch environment with torch 2.3.1 or higher version, then i
 pip install -r requirements.txt
 ```
 
-We provide two varients of MMaDA-Parallel: MMaDA-Parallel-A and MMaDA-Parallel-M. These two varients are with different tokenizer, Amused-VQ and Magvitv2 respectively. MMaDA-Parallel-A is trained with Amused-VQ, from Lumina-DiMOO, and MMaDA-Parallel-M is trained with Magvitv2, from MMaDA-8B.
+We provide two variants of MMaDA-Parallel: MMaDA-Parallel-A and MMaDA-Parallel-M. These two variants are with different tokenizers, Amused-VQ and Magvitv,2 respectively. MMaDA-Parallel-A is trained with Amused-VQ, from Lumina-DiMOO, and MMaDA-Parallel-M is trained with Magvitv2, from MMaDA-8B.
 
 ### 2. Experiencing Parallel Gen with MMaDA-Parallel-A
 ```bash
