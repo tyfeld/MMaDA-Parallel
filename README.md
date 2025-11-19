@@ -74,6 +74,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 * **[2025-11-10]** We release our [research paper](https://arxiv.org/abs/2511.09611) for Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.
 
 ## ⚙️ Quick Start
+**Note:** Our model has been successfully validated on synthetic datasets focusing on **environments, still life, architecture, and natural landscapes.** Its performance on out-of-distribution inputs—such as human faces or real-world photographic imagery—has not yet been fully explored. We are actively expanding our training corpus to include more diverse datasets.
+
 
 ### 1. Environment Setup
 First, start with a torch environment with torch 2.3.1 or higher version, then install the following dependencies:
