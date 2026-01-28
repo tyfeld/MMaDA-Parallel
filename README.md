@@ -1,6 +1,6 @@
 
 <div align="center">
-<h1>MMaDA-Parallel: Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</h1>
+<h1>[ICLR 2026] MMaDA-Parallel: Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation</h1>
 <p align="center">
   <a href="https://arxiv.org/abs/2511.09611">
     <img
