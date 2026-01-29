@@ -70,15 +70,8 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 
 ## 📌 Quick Start
-### ⚙️ Installation
-#### Environment preparation
-```
-git clone https://github.com/tyfeld/MMaDA-Parallel.git && cd MMaDA-Parallel
-conda create -n mmada-parallel
-conda activate mmada-parallel
-```
 
-#### Dependency installation
+#### ⚙️ Dependency installation
 ```
 pip install -r requirements.txt
 ```
