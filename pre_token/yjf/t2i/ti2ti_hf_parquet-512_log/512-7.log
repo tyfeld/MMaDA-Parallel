@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data01/yjf/MMaDA-Parallel-yjf/MMaDA-Parallel-A/pre_tokenizer/pre_tokenize.py", line 389, in <module>
+    from data.item_processor import DimooItemProcessor
+ModuleNotFoundError: No module named 'data'
