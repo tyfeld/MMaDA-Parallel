@@ -69,6 +69,41 @@ To resolve this, we propose a parallel multimodal diffusion framework that enabl
 
 
 
+## 📌 Quick Start
+
+#### ⚙️ Dependency installation
+```
+pip install -r requirements.txt
+```
+
+### Data prepration
+To train the model, we need to preprocess the dataset first.
+
+Step1: Replace the data path and data type in the scripts/run_pre_token.sh
+
+Step2: Run the Pre-Tokenizer
+
+```
+bash scripts/run_pre_token.sh
+```
+
+### 🚀 MMaDA-Parallel-A training
+
+Step1: Update your training data path in configs/data.yaml with the  `all_records.json` obtained in the data prepration
+
+Step2: Replace the path in the scripts/train.sh with your Lumina-DiMOO model and config path
+
+Step3: Now, you can train the model with your data
+
+```
+bash scripts/train.sh
+```
+
+
+
+
+
+
 ## 📰 Latest Updates 
 * **[2025-11-11]** We release our codes and models for [MMaDA-Parallel](https://arxiv.org/abs/2511.09611), with two released 8B models [MMaDA-Parallel-A](https://huggingface.co/tyfeld/MMaDA-Parallel-A) and [MMaDA-Parallel-M](https://huggingface.co/tyfeld/MMaDA-Parallel-M).
 * **[2025-11-10]** We release our [research paper](https://arxiv.org/abs/2511.09611) for Parallel Multimodal Large Diffusion Language Models for Thinking-Aware Editing and Generation.
