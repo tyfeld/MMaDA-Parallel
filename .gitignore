@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+.vscode/
+.idea/
+*.log
+checkpoints/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+.DS_Store
